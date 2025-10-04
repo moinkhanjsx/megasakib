@@ -86,7 +86,7 @@ function Header() {
         </nav>
 
         {/* Mobile/Tablet menu */}
-        <div id="mobile-menu" className="hidden lg:block lg:hidden pb-4">
+        <div id="mobile-menu" className="hidden lg:hidden pb-4">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-50 rounded-lg mt-2 border border-gray-200">
             {navItems.map((item) =>
               item.active ? (

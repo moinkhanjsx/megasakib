@@ -62,7 +62,7 @@ function Signup() {
           <Input
             label="Email:"
             placeholder="Enter your email"
-            type="Email"
+            type="email"
             {...register("email", {
               required: true,
               validate: {

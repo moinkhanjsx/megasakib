@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_APPWRITE_URL": "@vite_appwrite_url",
+    "VITE_APPWRITE_PROJECT_ID": "@vite_appwrite_project_id",
+    "VITE_APPWRITE_DATABASE_ID": "@vite_appwrite_database_id",
+    "VITE_APPWRITE_COLLECTION_ID": "@vite_appwrite_collection_id",
+    "VITE_APPWRITE_BUCKET_ID": "@vite_appwrite_bucket_id",
+    "VITE_TINYMCE_API_KEY": "@vite_tinymce_api_key"
+  }
+}
